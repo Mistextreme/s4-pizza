@@ -1,0 +1,183 @@
+body {
+	display: none;
+	background: rgb(0 0 0 / 30%);
+	margin: 0;
+	overflow: hidden;
+}
+
+.bicak {
+	position: relative;
+	background: url(img/knife_table.png) 0px 0px no-repeat;
+	width: 400px;
+	height: 80px;
+	z-index: 500;
+}
+
+.tezgah {
+	background: url(img/bg1-2.jpg) no-repeat 0 0;
+	width: -webkit-fill-available;
+	height: 600px;
+	position: absolute;
+	bottom: 0vh;
+	overflow: hidden;
+	transition: 5s;
+}
+
+.tahta {
+	position: absolute;
+	bottom: 5vh;
+	left: 10vh;
+	background: url(img/in_game_stuff.png) no-repeat -230px -941px;
+	width: 552px;
+	height: 331px;
+}
+
+#domates {
+	background: url(img/in_game_stuff.png) no-repeat -464px -517px;
+	width: 178px;
+	height: 180px;
+	position: absolute;
+	top: 2vh;
+	right: 25vh;
+	z-index: 1;
+}
+
+#sucuk {
+	background: url(img/in_game_stuff.png) no-repeat -658px 0;
+	width: 180px;
+	height: 93px;
+	position: absolute;
+	top: 2vh;
+	right: 25vh;
+	z-index: 100;
+}
+
+#sogan {
+	background: url(img/in_game_stuff.png) no-repeat 0 -213px;
+	width: 140px;
+	height: 120px;
+	position: absolute;
+	top: 30vh;
+	right: 58vh;
+	z-index: 100;
+}
+
+#mantar {
+	background: url(img/in_game_stuff.png) no-repeat -675px -216px;
+	width: 122px;
+	height: 128px;
+	position: absolute;
+	top: 50vh;
+	right: 58vh;
+	z-index: 100;
+}
+
+#salam {
+	width: 198px;
+	height: 133px;
+	position: absolute;
+	top: 50vh;
+	right: 10vh;
+	z-index: 100;
+	background: url(img/in_game_stuff.png) -476px -213px no-repeat;
+}
+
+#biber {
+	width: 190px;
+	height: 133px;
+	position: absolute;
+	top: 50vh;
+	right: 20vh;
+	z-index: 100;
+	background: url(img/in_game_stuff.png) no-repeat -286px -213px;
+}
+
+#zeytin {
+	width: 198px;
+	height: 57px;
+	position: absolute;
+	top: 50vh;
+	right: 20vh;
+	z-index: 100;
+	background: url(img/in_game_stuff.png) no-repeat 0 0;
+}
+
+.kase {
+	background: url('img/in_game_stuff.png') no-repeat -625px -718px;
+	width: 223px;
+	height: 222px;
+	position: relative;
+	left: 40vw;
+}
+
+.ocak {
+	display: none;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+}
+
+.bildirim {
+	width: 35%;
+	height: 50px;
+	margin: auto;
+	position: relative;
+	background: white;
+	transition: 1s;
+	top: -500;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	box-shadow: inset 0px 0px 5px 0px black;
+}
+
+.pizza {
+	background: url(img/pizza-ex.png) no-repeat 0 0;
+	width: 549px;
+	height: 545px;
+	margin: auto;
+	z-index: 100;
+}
+
+.bildirim h1 {
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 10px;
+	font-size: 24px;
+}
+
+.sol {
+	position: absolute;
+	left: 10vh;
+	top: 0;
+	width: 300px;
+	height: auto;
+}
+
+.sag {
+	position: absolute;
+	right: 0vh;
+	width: 300px;
+	height: auto;
+	top: 0;
+}
+
+.kase2 {
+	width: 180px;
+	height: 180px;
+	top: -5vh;
+}
+
+.devamet {
+	display: none;
+	position: absolute;
+	bottom: 45%;
+	right: 1vh;
+	z-index: 100;
+	color: white;
+	font-size: 90px;
+	font-family: sans-serif;
+	text-decoration: none;
+	background: unset;
+	padding: 5px 20px;
+	border-radius: 30px;
+}
